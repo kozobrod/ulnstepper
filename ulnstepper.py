@@ -10,8 +10,7 @@ d2 = machine.Pin(12, machine.Pin.OUT)  # D6 pin - driver pin2
 d3 = machine.Pin(13, machine.Pin.OUT)  # D7 pin - driver pin3
 d4 = machine.Pin(15, machine.Pin.OUT)  # D8 pin - driver pin4
 
-step_table = [[1, 0, 0, 1], [1, 0, 0, 0], [1, 0, 1, 0], [1, 0, 0, 1], [0, 1, 0, 1], [0, 1, 0, 0], [0, 1, 1, 0],
-              [0, 0, 1, 0]]
+step_table = [[1, 0, 0, 1], [1, 1, 0, 0], [0, 1, 1, 0], [0, 0, 1, 1]]
 
 
 def stop():
