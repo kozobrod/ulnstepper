@@ -26,7 +26,7 @@ def stop():
 def stepper(angle: int, t=0.005):
     """runs uln2003-28BYJ_48 driver-motor
 
-    :param angle: rotation ange (can take negative values)
+    :param angle: rotation angle (can take negative values)
     :param t: sleep time between steps (default = 0.005 - minimal value for not loosing steps in my case)
     """
     stop()
